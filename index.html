@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+</head>
+<body>
+<center>
+    <h1> Formulario para pagina de entretenimiento </h1>
+    <form action="logica.html" method="POST" class="form-example">
+    <label for="name">Ingrese su nombre</label><br>
+    <input type="name" id="name" name="name"><br><br>
+
+    <label for="email">Ingrese su correo</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for= "password"> Ingrese su contraseña </label><br>
+    <input type="password" pattern=".{5,}" ><br><br>
+
+    <input type="submit" value="Acptar">
+  </form>
+</center>
+</body>
+<style>
+    body{
+        background-color:rgb(80, 246, 58)
+     }
+    h1{
+        color: black;
+    }
+    
+    input{
+        border-bottom: rgb(0, 77, 0);
+    }
+    form{
+        background-color:rgb(20, 214, 20);
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0 auto;
+        width: 300px;
+    }
+    .filed:focus{
+        border-color: rgb(0, 77, 0);
+    }
+</style>
+</html>
+
